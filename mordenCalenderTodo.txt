@@ -1,0 +1,41 @@
+<!-- 
+    Các chức năng chính SmartToDoList
+    1. ấn ngày nào hiện ngày đấy và các task cần làm
+    2. ấn ngày của tháng trước thì chuyển sang tháng đấy và active ngày mà mình vừa click vào
+    3. ấn ngày của tháng sau thì chuyển sang tháng đấy và active ngày mà mình vừa click vào
+    4. Tìm tháng/năm trong thanh tìm kiếm
+    5. Khi ấn vào today thì sẽ hiển thị ngày/tháng/năm hiện tại
+    6. khi ấn vào btn next hoặc prev thì nó sẽ hiển thị tháng trước, tháng sau
+    7. ấn vào các task thì nó sẽ xóa task đấy ra khỏi todo của ngày hôm đó
+    8. thêm các task (event) vào khi click dấu cộng (event name, time from, time to)
+    
+    
+ -->
+
+ 
+<!-- Phần 1
+    Thứ tự các bước: 
+    1. khai báo các biến và lấy các phần tử HTML ứng theo nó
+        sử dụng DOM querySelector()
+    2. Tạo Function initCalendar() 
+    - chức năng: thêm ngày vào các ngày với các lớp day, prev-date, next-date
+                của các ngày tháng trước, các ngày tháng sau và ngày hôm nay.
+        + khai báo biến ngày đầu tiên của tháng, ngày cuối cùng của tháng,
+          ngày cuối tháng trước, ngày đầu tháng sau. số ngày của tháng sau trong
+          tuần cuối cùng của tháng hiện tại.
+        +  hiển thị danh sách ngày hiện tại, ngày tháng trước và sau
+    3. Tạo function prevMonth() và nextMonth()
+      + tạo xong nhớ gọi lại hàm initCalender()
+    4. Thêm các sự kiện click vào nút prev và next 
+    5. Thêm sự kiện vào các nút Today, GotoBtn (tạo function gotoDate()), và input date
+    6. thêm sự kiện click vào ngày trước, sau thì chuyển tháng
+ -->
+ 
+<!-- Phần 2
+  1. tạo HTML, CSS cho job
+  2. tạo HTML, CSS cho add job
+  3. thêm các sự kiện ẩn hiện cho add job
+  4. format lại cho các input trong add job
+  5. thêm 1 mảng chứa obj các event
+  6. sửa phần crr date thêm các event vào
+ -->
